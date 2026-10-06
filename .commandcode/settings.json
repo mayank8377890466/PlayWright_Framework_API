@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(mkdir:*)",
+      "Shell(npx playwright --version)",
+      "Shell(npx playwright test tests/booking.spec.ts)",
+      "Shell(del:*)",
+      "Shell(dir \"D:\\PlaywrightAPIFramework\\src\\.env*\" 2>nul; echo done)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
